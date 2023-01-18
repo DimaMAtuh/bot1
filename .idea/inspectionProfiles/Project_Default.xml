@@ -1,0 +1,21 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="telebot" />
+          <option value="telebot.types" />
+          <option value="telebot.TeleBot.message_handler" />
+          <option value="telebot.TeleBot.polling" />
+          <option value="tgbot2.colorama" />
+          <option value="bot.aiogram" />
+          <option value="bot.WEBHOOK_PATH" />
+          <option value="bot.on_startup" />
+          <option value="bot.on_shutdown" />
+          <option value="bot5.types" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
