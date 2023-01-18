@@ -3,7 +3,7 @@ import telebot
 from flask import Flask, request
 
 TOKEN = '5904550329:AAEwOCL3jszxaos0s-7EVQGXe_Bz0uvSyYM'
-APP_URL = f'bot1-42nsos33r-dimamatuh.vercel.app/{TOKEN}'
+APP_URL = f'https://bot1-crxsdz7fh-dimamatuh.vercel.app{TOKEN}'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 
@@ -33,5 +33,7 @@ def webhook():
     return'!', 200
 
 
-if __name__ == '__name__':
-    server.run(host='0.0.0.0', port=int(os.environ.get('Port', 5000)))
+bot.polling(none_stop=True)
+
+
+input()
